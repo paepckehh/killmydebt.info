@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on killmydebt</title>
-    <link>http://localhost:1313/en/portfolio/</link>
+    <link>https://killmydebt.de/en/portfolio/</link>
     <description>Recent content in Portfolio on killmydebt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://localhost:1313/en/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://killmydebt.de/en/portfolio/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

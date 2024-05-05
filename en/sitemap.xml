@@ -2,542 +2,542 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://killmydebt.de/en/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/"
+                href="https://killmydebt.de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="https://killmydebt.de/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://killmydebt.de/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/awards/</loc>
+    <loc>https://killmydebt.de/en/awards/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/certifications/</loc>
+    <loc>https://killmydebt.de/en/certifications/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/demo/</loc>
+    <loc>https://killmydebt.de/en/tags/demo/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/demo/"
+                href="https://killmydebt.de/tags/demo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/demo/"
+                href="https://killmydebt.de/en/tags/demo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/index/</loc>
+    <loc>https://killmydebt.de/en/tags/index/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/index/"
+                href="https://killmydebt.de/tags/index/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/index/"
+                href="https://killmydebt.de/ar/tags/index/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/index/"
+                href="https://killmydebt.de/en/tags/index/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/</loc>
+    <loc>https://killmydebt.de/en/post/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/"
+                href="https://killmydebt.de/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/post/"
+                href="https://killmydebt.de/ar/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/"
+                href="https://killmydebt.de/en/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/shortcode/</loc>
+    <loc>https://killmydebt.de/en/tags/shortcode/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/shortcode/"
+                href="https://killmydebt.de/tags/shortcode/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/shortcode/"
+                href="https://killmydebt.de/en/tags/shortcode/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://killmydebt.de/en/tags/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/"
+                href="https://killmydebt.de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="https://killmydebt.de/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://killmydebt.de/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/notice-shortcode/</loc>
+    <loc>https://killmydebt.de/en/post/notice-shortcode/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/notice-shortcode/"
+                href="https://killmydebt.de/post/notice-shortcode/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/notice-shortcode/"
+                href="https://killmydebt.de/en/post/notice-shortcode/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/series/</loc>
+    <loc>https://killmydebt.de/en/series/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/series/"
+                href="https://killmydebt.de/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/series/"
+                href="https://killmydebt.de/ar/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/series/"
+                href="https://killmydebt.de/en/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/series-part-2/</loc>
+    <loc>https://killmydebt.de/en/post/series-part-2/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/series-part-2/"
+                href="https://killmydebt.de/post/series-part-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/series-part-2/"
+                href="https://killmydebt.de/en/post/series-part-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/series/series-setup/</loc>
+    <loc>https://killmydebt.de/en/series/series-setup/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/series/series-setup/"
+                href="https://killmydebt.de/series/series-setup/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/series/series-setup/"
+                href="https://killmydebt.de/en/series/series-setup/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/series-part-1/</loc>
+    <loc>https://killmydebt.de/en/post/series-part-1/</loc>
     <lastmod>2021-08-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/series-part-1/"
+                href="https://killmydebt.de/post/series-part-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/series-part-1/"
+                href="https://killmydebt.de/en/post/series-part-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/redirect/</loc>
+    <loc>https://killmydebt.de/en/tags/redirect/</loc>
     <lastmod>2021-06-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/redirect/"
+                href="https://killmydebt.de/tags/redirect/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/redirect/"
+                href="https://killmydebt.de/en/tags/redirect/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/redirect/</loc>
+    <loc>https://killmydebt.de/en/post/redirect/</loc>
     <lastmod>2021-06-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/redirect/"
+                href="https://killmydebt.de/post/redirect/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/redirect/"
+                href="https://killmydebt.de/en/post/redirect/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/redirecturl/</loc>
+    <loc>https://killmydebt.de/en/tags/redirecturl/</loc>
     <lastmod>2021-06-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/redirecturl/"
+                href="https://killmydebt.de/tags/redirecturl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/redirecturl/"
+                href="https://killmydebt.de/en/tags/redirecturl/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/figure-shortcode/</loc>
+    <loc>https://killmydebt.de/en/post/figure-shortcode/</loc>
     <lastmod>2021-03-13T21:47:41+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/figure-shortcode/"
+                href="https://killmydebt.de/post/figure-shortcode/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/figure-shortcode/"
+                href="https://killmydebt.de/en/post/figure-shortcode/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/archives/</loc>
+    <loc>https://killmydebt.de/en/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/archives/"
+                href="https://killmydebt.de/ar/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/archives/"
+                href="https://killmydebt.de/en/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://killmydebt.de/en/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/categories/"
+                href="https://killmydebt.de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="https://killmydebt.de/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://killmydebt.de/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/css/</loc>
+    <loc>https://killmydebt.de/en/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/css/"
+                href="https://killmydebt.de/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/css/"
+                href="https://killmydebt.de/en/tags/css/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/html/</loc>
+    <loc>https://killmydebt.de/en/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/html/"
+                href="https://killmydebt.de/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/html/"
+                href="https://killmydebt.de/en/tags/html/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/markdown/</loc>
+    <loc>https://killmydebt.de/en/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/markdown/"
+                href="https://killmydebt.de/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/markdown/"
+                href="https://killmydebt.de/en/tags/markdown/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/markdown-syntax/</loc>
+    <loc>https://killmydebt.de/en/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/markdown-syntax/"
+                href="https://killmydebt.de/post/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/markdown-syntax/"
+                href="https://killmydebt.de/en/post/markdown-syntax/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/syntax/</loc>
+    <loc>https://killmydebt.de/en/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/categories/syntax/"
+                href="https://killmydebt.de/categories/syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/syntax/"
+                href="https://killmydebt.de/en/categories/syntax/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/themes/</loc>
+    <loc>https://killmydebt.de/en/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/categories/themes/"
+                href="https://killmydebt.de/categories/themes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/themes/"
+                href="https://killmydebt.de/en/categories/themes/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/series/themes-guide/</loc>
+    <loc>https://killmydebt.de/en/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/series/themes-guide/"
+                href="https://killmydebt.de/series/themes-guide/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/series/themes-guide/"
+                href="https://killmydebt.de/en/series/themes-guide/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/privacy/</loc>
+    <loc>https://killmydebt.de/en/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/privacy/"
+                href="https://killmydebt.de/tags/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/privacy/"
+                href="https://killmydebt.de/en/tags/privacy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/rich-content/</loc>
+    <loc>https://killmydebt.de/en/post/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/rich-content/"
+                href="https://killmydebt.de/post/rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/rich-content/"
+                href="https://killmydebt.de/en/post/rich-content/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/shortcodes/</loc>
+    <loc>https://killmydebt.de/en/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/shortcodes/"
+                href="https://killmydebt.de/tags/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/shortcodes/"
+                href="https://killmydebt.de/en/tags/shortcodes/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/placeholder-text/</loc>
+    <loc>https://killmydebt.de/en/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/placeholder-text/"
+                href="https://killmydebt.de/post/placeholder-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/placeholder-text/"
+                href="https://killmydebt.de/en/post/placeholder-text/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/text/</loc>
+    <loc>https://killmydebt.de/en/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/text/"
+                href="https://killmydebt.de/tags/text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/text/"
+                href="https://killmydebt.de/en/tags/text/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
+    <loc>https://killmydebt.de/en/contact/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/contact/"
+                href="https://killmydebt.de/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/contact/"
+                href="https://killmydebt.de/ar/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/contact/"
+                href="https://killmydebt.de/en/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/math-typesetting/</loc>
+    <loc>https://killmydebt.de/en/post/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/math-typesetting/"
+                href="https://killmydebt.de/post/math-typesetting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/math-typesetting/"
+                href="https://killmydebt.de/en/post/math-typesetting/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/emoji/</loc>
+    <loc>https://killmydebt.de/en/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/emoji/"
+                href="https://killmydebt.de/tags/emoji/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/emoji/"
+                href="https://killmydebt.de/en/tags/emoji/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/emoji-support/</loc>
+    <loc>https://killmydebt.de/en/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/emoji-support/"
+                href="https://killmydebt.de/post/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/emoji-support/"
+                href="https://killmydebt.de/en/post/emoji-support/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/image-test/</loc>
+    <loc>https://killmydebt.de/en/post/image-test/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/post/image-test/"
+                href="https://killmydebt.de/post/image-test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/post/image-test/"
+                href="https://killmydebt.de/en/post/image-test/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/thumbnail/</loc>
+    <loc>https://killmydebt.de/en/tags/thumbnail/</loc>
     <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/tags/thumbnail/"
+                href="https://killmydebt.de/tags/thumbnail/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/thumbnail/"
+                href="https://killmydebt.de/en/tags/thumbnail/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://killmydebt.de/en/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/about/"
+                href="https://killmydebt.de/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/about/"
+                href="https://killmydebt.de/ar/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://killmydebt.de/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/imprint/</loc>
+    <loc>https://killmydebt.de/en/imprint/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/imprint/"
+                href="https://killmydebt.de/imprint/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/imprint/"
+                href="https://killmydebt.de/en/imprint/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/portfolio/</loc>
+    <loc>https://killmydebt.de/en/portfolio/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://localhost:1313/portfolio/"
+                href="https://killmydebt.de/portfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/portfolio/"
+                href="https://killmydebt.de/en/portfolio/"
                 />
   </url>
 </urlset>
