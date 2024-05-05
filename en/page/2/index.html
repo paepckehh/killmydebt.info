@@ -456,7 +456,20 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/image-test/">GUIDE TO THUMBNAILS IN HUGO</a></h3>
         
-          <p>Thumbnails can be enabled easily by setting the thumbnail parameter in the frontmatter to an image such as &quot;images/landscape.</p>
+          <p><p>Thumbnails can be enabled easily by setting the <code>thumbnail</code> parameter in the frontmatter to an image such as <code>&quot;images/landscape.jpg&quot;</code>.</p>
+<p>Make sure to copy the image the <code>static/images/</code> directory.</p>
+<p>If put together, it will look like this (that&rsquo;s in fact this post&rsquo;s frontmatter):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">+++
+</span></span><span class="line"><span class="cl">author = &#34;Hugo Authors&#34;
+</span></span><span class="line"><span class="cl">title = &#34;Guide to Thumbnails in Hugo&#34;
+</span></span><span class="line"><span class="cl">date = &#34;2019-03-04&#34;
+</span></span><span class="line"><span class="cl">description = &#34;Guide to Thumbnails in Hugo&#34;
+</span></span><span class="line"><span class="cl">tags = [
+</span></span><span class="line"><span class="cl">    &#34;thumbnail&#34;,
+</span></span><span class="line"><span class="cl">]
+</span></span><span class="line"><span class="cl">thumbnail= &#34;images/landscape.jpg&#34;
+</span></span><span class="line"><span class="cl">+++
+</span></span></code></pre></div></p>
         
         </div>
 

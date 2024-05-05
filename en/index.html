@@ -450,9 +450,95 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/notice-shortcode/">THE NOTICE SHORTCODE</a></h3>
         
-          <p>The notice shortcode supports three different types of disclaimers. These are as following:</p>
+          <p><p>The notice shortcode supports three different types of disclaimers. These are as following:</p>
+<h2 id="info-notice">Info Notice</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"><div
+  class="notice"
+>
+  <span
+    class="notice__title"
+  >Info</span><div class="notice__content">
+    </span></span><span class="line"><span class="cl">Lorem Impsum..
+</span></span><span class="line"><span class="cl">
+  </div>
+</div>
+<p></span></span></code></pre></div>&lt;div
+class=&ldquo;notice&rdquo;</p>
+<blockquote>
+</blockquote>
+<p>&lt;span
+class=&ldquo;notice__title&rdquo;</p>
+<blockquote>
+<p>Info</span><div class="notice__content">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</blockquote>
+  </div>
+</div>
+<h2 id="update-notice">Update Notice</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"><div
+  class="notice
+    notice--update
+  "
+>
+  <span
+    class="notice__title
+      notice__title--update
+    "
+  >Update</span><div class="notice__content">
+    </span></span><span class="line"><span class="cl">Lorem Impsum..
+</span></span><span class="line"><span class="cl">
+  </div>
+</div>
+<p></span></span></code></pre></div>&lt;div
+class=&ldquo;notice
+notice&ndash;update
+&quot;</p>
+<blockquote>
+</blockquote>
+<p>&lt;span
+class=&ldquo;notice__title
+notice__title&ndash;update
+&quot;</p>
+<blockquote>
+<p>Update</span><div class="notice__content">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</blockquote>
+  </div>
+</div>
+<h2 id="warning-notice">Warning Notice</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"><div
+  class="notice
+    notice--warning
+  "
+>
+  <span
+    class="notice__title
+      notice__title--warning
+    "
+  >Warning</span><div class="notice__content">
+    </span></span><span class="line"><span class="cl">Lorem Impsum..
+</span></span><span class="line"><span class="cl">
+  </div>
+</div>
+<p></span></span></code></pre></div>&lt;div
+class=&ldquo;notice
+notice&ndash;warning
+&quot;</p>
+<blockquote>
+</blockquote>
+<p>&lt;span
+class=&ldquo;notice__title
+notice__title&ndash;warning
+&quot;</p>
+<blockquote>
+<p>Warning</span><div class="notice__content">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</blockquote>
+  </div>
+</div>
+</p>
         
-        </div>
+        <a href="/en/post/notice-shortcode/">Read more</a></div>
 
       
       <div class="post__footer">
@@ -484,9 +570,12 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/series-part-2/">SERIES PART 2</a></h3>
         
-          <p>In this second part of the series we&rsquo;ll show you where to find the full series</p>
+          <p><p>In this second part of the series we&rsquo;ll show you where to find the full series</p>
+<p>When you created a series, you&rsquo;ll probably want to link to the full set of blogposts.<br>
+In this example we used <code>series-setup</code> as our series name.</p>
+<p>This means we can now go to <a href="http://localhost:1313/series/series-setup/">http://localhost:1313/series/series-setup/</a> to see all the blog posts of this serie.</p></p>
         
-        </div>
+        <a href="/en/post/series-part-2/">Read more</a></div>
 
       
       <div class="post__footer">
@@ -514,9 +603,28 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/series-part-1/">SERIES PART 1</a></h3>
         
-          <p>In this first part of the series we&rsquo;ll show you how to create a series</p>
+          <p><p>In this first part of the series we&rsquo;ll show you how to create a series</p>
+<p>As a first step we need to add series as a taxonomy. We can do this by editing the <code>config.toml</code>.<br>
+Note: We always need to define the existing taxonomies as well.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">series</span> <span class="p">=</span> <span class="s2">&#34;series&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+</span></span></code></pre></div><p>Now we have the series enabled, the next thing we need to do is add the series name in the FrontMatter.
+For our example we&rsquo;ll use this post and the next part.</p>
+<p>As you can see we&rsquo;ve set the series to <code>series-setup</code>. We also do the same in the next parts of the series.<br>
+This end results should be a Front Matter that looks similar to this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">author: Hugo Authors
+</span></span><span class="line"><span class="cl">title: Series Part 1
+</span></span><span class="line"><span class="cl">date: 2021-08-14
+</span></span><span class="line"><span class="cl">description: A brief guide to how to setup series part 1
+</span></span><span class="line"><span class="cl">series:
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> series-setup
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></div><p>Each individual post will now also show the other posts in the series under the <code>Posts in this Series</code> heading.</p></p>
         
-        </div>
+        <a href="/en/post/series-part-1/">Read more</a></div>
 
       
       <div class="post__footer">
@@ -544,7 +652,15 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/redirect/">REDIRECT</a></h3>
         
-          <p>Forwarding to gohugo using redirectUrl</p>
+          <p><p>Forwarding to <a href="https://gohugo.io">gohugo</a> using <code>redirectUrl</code></p>
+<div class="sk-wrapper">
+  <div class="sk-fold">
+    <div class="sk-fold-cube"></div>
+    <div class="sk-fold-cube"></div>
+    <div class="sk-fold-cube"></div>
+    <div class="sk-fold-cube"></div>
+  </div>
+</div></p>
         
         </div>
 
@@ -578,9 +694,62 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/figure-shortcode/">THE FIGURE SHORTCODE</a></h3>
         
-          <p>Hugo has figure shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images.</p>
+          <p><p>Hugo has <code>figure</code> shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images. Documentations can be found here:</p>
+<p><a href="https://gohugo.io/content-management/shortcodes/#figure">https://gohugo.io/content-management/shortcodes/#figure</a></p>
+<p>This theme has 3 CSS classes made for figure elements:</p>
+<ul>
+<li><code>big</code>: images will break the width limit of main content area.</li>
+<li><code>left</code>: images will float to the left.</li>
+<li><code>right</code>: images will float to the right.</li>
+</ul>
+<p>If a figure has no class set, the image will behave just like a normal markdown image: <code>![]()</code>.</p>
+<p>Here are some examples; please be aware that these styles only take effect when the page width is over 1300px.</p>
+<figure><img src="https://via.placeholder.com/1600x800"
+    alt="image"><figcaption>
+      <p>figure-normal (without any classes)</p>
+    </figcaption>
+</figure>
+<p>Pellentesque posuere sem nec nunc varius, id hendrerit arcu consequat. Maecenas commodo, sapien ut gravida porttitor, dolor risus facilisis enim, eget pharetra nibh nisl porttitor sapien. Proin finibus elementum ligula sit amet hendrerit. Praesent et erat sodales ante accumsan pharetra non eu nulla. Sed vehicula consequat lorem, a fermentum ante faucibus quis. Aliquam erat volutpat. In vitae tincidunt dui. Proin sit amet ligula sodales, elementum tortor et, venenatis sem. Maecenas non nisl erat. Curabitur nec velit eros. Ut cursus lacus nisi, non pretium libero euismod et. Fusce luctus in nisi quis sollicitudin. Aenean nec blandit ligula. Duis ac felis lorem. Proin tellus tellus, dictum nec tempus sit amet, venenatis ac felis. Sed in pharetra nulla, non mollis sem.</p>
+<figure class="big"><img src="https://via.placeholder.com/1600x800"
+    alt="image"><figcaption>
+      <p>figure-big</p>
+    </figcaption>
+</figure>
+<p>Donec nec tincidunt est. Sed id metus in erat fringilla mattis at id turpis. Aliquam tempor vehicula faucibus. Phasellus consequat aliquam odio. Morbi a ex vitae sapien porta auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sit amet nulla arcu. Praesent ut tortor purus. Praesent id eros diam. Pellentesque vitae dolor at nibh ultrices accumsan eu id urna. Aliquam finibus interdum orci in varius. Pellentesque a enim condimentum, condimentum felis id, vehicula augue. Vivamus cursus commodo eros nec lacinia.</p>
+<figure class="medium"><img src="https://via.placeholder.com/1600x800"
+    alt="image"><figcaption>
+      <p>figure-medium</p>
+    </figcaption>
+</figure>
+<p>In a libero varius, luctus ligula et, bibendum tortor. Sed sit amet dui malesuada, mattis justo id, ultricies enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam sollicitudin cursus feugiat. Vivamus suscipit ipsum eget lobortis sollicitudin. Fusce vehicula neque tellus. Integer eu posuere quam, id laoreet tortor. Mauris sit amet turpis urna. Donec venenatis tempor dolor, nec laoreet orci aliquet et. Sed condimentum elit eu tristique aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc luctus ipsum sit amet nisl maximus pellentesque.</p>
+<figure class="small"><img src="https://via.placeholder.com/1600x800"
+    alt="image"><figcaption>
+      <p>figure-small</p>
+    </figcaption>
+</figure>
+<p>Pellentesque posuere sem nec nunc varius, id hendrerit arcu consequat. Maecenas commodo, sapien ut gravida porttitor, dolor risus facilisis enim, eget pharetra nibh nisl porttitor sapien. Proin finibus elementum ligula sit amet hendrerit. Praesent et erat sodales ante accumsan pharetra non eu nulla. Sed vehicula consequat lorem, a fermentum ante faucibus quis. Aliquam erat volutpat. In vitae tincidunt dui. Proin sit amet ligula sodales, elementum tortor et, venenatis sem. Maecenas non nisl erat. Curabitur nec velit eros. Ut cursus lacus nisi, non pretium libero euismod et. Fusce luctus in nisi quis sollicitudin. Aenean nec blandit ligula. Duis ac felis lorem. Proin tellus tellus, dictum nec tempus sit amet, venenatis ac felis. Sed in pharetra nulla, non mollis sem.</p>
+<figure class="tiny"><img src="https://via.placeholder.com/1600x800"
+    alt="image"><figcaption>
+      <p>figure-tiny</p>
+    </figcaption>
+</figure>
+<p>Suspendisse fringilla malesuada massa, in malesuada orci lacinia a. Praesent dapibus faucibus nisl, id volutpat elit bibendum eu. Nulla vitae laoreet nibh, eu hendrerit lacus. Donec lacinia auctor ligula, vel interdum ipsum malesuada vitae. Donec placerat a justo eu gravida. Aenean ultricies imperdiet convallis. Pellentesque accumsan non ex sed euismod. Proin bibendum lectus nec enim faucibus feugiat. Donec hendrerit nisi viverra ornare luctus. Nullam non viverra nisl. Nam vel tellus et tortor elementum volutpat sit amet et erat. Aliquam a libero quis libero porta consectetur. Etiam aliquam felis vel nulla mattis finibus. Mauris laoreet lacus arcu, sed rhoncus odio condimentum sed. Aenean in dui rutrum elit faucibus faucibus nec fringilla augue. Fusce non ornare mauris.</p>
+<figure class="left"><img src="https://via.placeholder.com/400x280"
+    alt="image"><figcaption>
+      <p>figure-left</p>
+    </figcaption>
+</figure>
+<p>In a libero varius, luctus ligula et, bibendum tortor. Sed sit amet dui malesuada, mattis justo id, ultricies enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam sollicitudin cursus feugiat. Vivamus suscipit ipsum eget lobortis sollicitudin. Fusce vehicula neque tellus. Integer eu posuere quam, id laoreet tortor. Mauris sit amet turpis urna. Donec venenatis tempor dolor, nec laoreet orci aliquet et. Sed condimentum elit eu tristique aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc luctus ipsum sit amet nisl maximus pellentesque.</p>
+<figure class="right"><img src="https://via.placeholder.com/400x280"
+    alt="image"><figcaption>
+      <p>figure-right</p>
+    </figcaption>
+</figure>
+<p>Pellentesque eu consequat nunc. Vivamus eu eros ut nulla dapibus molestie in id tortor. Cras viverra ligula erat, tincidunt hendrerit diam blandit nec. Cras id urna vel dolor dictum mattis. Vestibulum congue erat ac eros molestie accumsan. Maecenas lorem nibh, maximus vel justo eget, facilisis egestas lectus. Mauris eu est ut odio blandit consequat id feugiat eros. Fusce id suscipit mi, et lacinia lectus. Mauris a arcu placerat dolor iaculis feugiat nec non mi. Ut porttitor elit tortor, eget tempus velit mollis eu. Aliquam sem nulla, dictum cursus mauris ac, semper ullamcorper leo.</p>
+<p>Donec nec tincidunt est. Sed id metus in erat fringilla mattis at id turpis. Aliquam tempor vehicula faucibus. Phasellus consequat aliquam odio. Morbi a ex vitae sapien porta auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sit amet nulla arcu. Praesent ut tortor purus. Praesent id eros diam. Pellentesque vitae dolor at nibh ultrices accumsan eu id urna. Aliquam finibus interdum orci in varius. Pellentesque a enim condimentum, condimentum felis id, vehicula augue. Vivamus cursus commodo eros nec lacinia.</p>
+</p>
         
-        </div>
+        <a href="/en/post/figure-shortcode/">Read more</a></div>
 
       
       <div class="post__footer">
@@ -612,9 +781,147 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/markdown-syntax/">MARKDOWN SYNTAX GUIDE</a></h3>
         
-          <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+          <p><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+<h2 id="headings">Headings</h2>
+<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+<h2 id="paragraph">Paragraph</h2>
+<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
+<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
+<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
+<blockquote>
+<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
+<blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<br>
+— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+</blockquote>
+<h2 id="tables">Tables</h2>
+<p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bob</td>
+<td>27</td>
+</tr>
+<tr>
+<td>Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
+<table>
+<thead>
+<tr>
+<th>Italics</th>
+<th>Bold</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><strong>bold</strong></td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="code-blocks">Code Blocks</h2>
+<h4 id="code-block-with-backticks">Code block with backticks</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span> <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Test&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span> <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></span></span></code></pre></div>
+<h2 id="list-types">List Types</h2>
+<h4 id="ordered-list">Ordered List</h4>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h4 id="unordered-list">Unordered List</h4>
+<ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+<h4 id="nested-list">Nested list</h4>
+<ul>
+<li>Fruit
+<ul>
+<li>Apple</li>
+<li>Orange</li>
+<li>Banana</li>
+</ul>
+</li>
+<li>Dairy
+<ul>
+<li>Milk</li>
+<li>Cheese</li>
+</ul>
+</li>
+</ul>
+<h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
+<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+<p>H<sub>2</sub>O</p>
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>
+<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div></p>
         
-        </div>
+        <a href="/en/post/markdown-syntax/">Read more</a></div>
 
       
       <div class="post__footer">
@@ -651,9 +958,53 @@ Remember that you can also specify a section header for the posts below by confi
         <h3><a href="/en/post/rich-content/">RICH CONTENT</a></h3>
         
           <p><p>Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
-<h2 id="heading"></h2></p>
+<h2 id="heading"></h2>
+<h2 id="youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode</h2>
+<pre><code>&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&quot;&gt;
+  &lt;iframe allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;allowfullscreen&quot; loading=&quot;eager&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; src=&quot;https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&quot; title=&quot;YouTube video&quot;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre>
+<br>
+<hr>
+<h2 id="twitter-simple-shortcode">Twitter Simple Shortcode</h2>
+<br>
+<hr>
+<h2 id="vimeo-simple-shortcode">Vimeo Simple Shortcode</h2>
+<style>
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+</style><div class="s_video_simple __h_video">
+          <a href="https://vimeo.com/4.8912912e&#43;07" rel="noopener" target="_blank">
+            <img src="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640" srcset="https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640 2x" alt="Sing Jan Swing - Kinetic Type">
+            <div class="play">
+              <svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61"><circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000"></circle><path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff"></path></svg>
+            </div>
+          </a>
+        </div></p>
         
-        </div>
+        <a href="/en/post/rich-content/">Read more</a></div>
 
       
       <div class="post__footer">
@@ -685,9 +1036,31 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/placeholder-text/">PLACEHOLDER TEXT</a></h3>
         
-          <p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
+          <p><p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
+<p>Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
+<ol>
+<li>Exierant elisi ambit vivere dedere</li>
+<li>Duce pollice</li>
+<li>Eris modo</li>
+<li>Spargitque ferrea quos palude</li>
+</ol>
+<p>Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.</p>
+<ol>
+<li>Comas hunc haec pietate fetum procerum dixit</li>
+<li>Post torum vates letum Tiresia</li>
+<li>Flumen querellas</li>
+<li>Arcanaque montibus omnes</li>
+<li>Quidem et</li>
+</ol>
+<h1 id="vagus-elidunt">Vagus elidunt</h1>
+<p><svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg></p>
+<p><a href="https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon">The Van de Graaf Canon</a></p>
+<h2 id="mane-refeci-capiebant-unda-mulcebat">Mane refeci capiebant unda mulcebat</h2>
+<p>Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. <strong>Faces illo pepulere</strong> tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.</p>
+<p>Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.</p>
+<p>Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel <strong>mitis temploque</strong> vocatus, inque alis, <em>oculos nomen</em> non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides <strong>parte</strong>.</p></p>
         
-        </div>
+        <a href="/en/post/placeholder-text/">Read more</a></div>
 
       
       <div class="post__footer">
@@ -719,9 +1092,29 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/math-typesetting/">MATH TYPESETTING</a></h3>
         
-          <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+          <p><p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{{</span> <span class="k">if</span> or .Params.math .Site.Params.math <span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">{{</span> partial <span class="s2">&#34;math.html&#34;</span> . <span class="o">}}</span>
+</span></span><span class="line"><span class="cl"><span class="o">{{</span> end <span class="o">}}</span>
+</span></span></code></pre></div><ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
+<h3 id="examples">Examples</h3>
+<p>Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)</p>
+<p>Block math:</p>
+<p>$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p></p>
         
-        </div>
+        <a href="/en/post/math-typesetting/">Read more</a></div>
 
       
       <div class="post__footer">
@@ -749,9 +1142,19 @@ Remember that you can also specify a section header for the posts below by confi
       <div class="post__content">
         <h3><a href="/en/post/emoji-support/">EMOJI SUPPORT</a></h3>
         
-          <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+          <p><p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+<br>
+<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<hr>
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">.emoji {
+</span></span><span class="line"><span class="cl">font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+</span></span><span class="line"><span class="cl">}</span></span></code></pre></div></p>
         
-        </div>
+        <a href="/en/post/emoji-support/">Read more</a></div>
 
       
       <div class="post__footer">
