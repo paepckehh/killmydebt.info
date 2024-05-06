@@ -22,6 +22,16 @@
   </url><url>
     <loc>https://killmydebt.de/post/horst5/</loc>
     <lastmod>2024-05-05T12:25:23+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://killmydebt.de/en/post/horst5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://killmydebt.de/post/horst5/"
+                />
   </url><url>
     <loc>https://killmydebt.de/tags/index/</loc>
     <lastmod>2024-05-05T12:25:23+02:00</lastmod>
@@ -79,18 +89,68 @@
   </url><url>
     <loc>https://killmydebt.de/post/horst4/</loc>
     <lastmod>2024-05-05T12:25:20+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://killmydebt.de/en/post/horst4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://killmydebt.de/post/horst4/"
+                />
   </url><url>
     <loc>https://killmydebt.de/post/horst3/</loc>
     <lastmod>2024-05-05T12:19:31+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://killmydebt.de/en/post/horst3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://killmydebt.de/post/horst3/"
+                />
   </url><url>
     <loc>https://killmydebt.de/post/horst2/</loc>
     <lastmod>2024-05-05T12:19:29+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://killmydebt.de/en/post/horst2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://killmydebt.de/post/horst2/"
+                />
   </url><url>
     <loc>https://killmydebt.de/post/horst1/</loc>
     <lastmod>2024-05-05T12:19:27+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://killmydebt.de/en/post/horst1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://killmydebt.de/post/horst1/"
+                />
   </url><url>
     <loc>https://killmydebt.de/post/horst0/</loc>
     <lastmod>2024-05-05T12:18:40+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://killmydebt.de/en/post/horst0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://killmydebt.de/post/horst0/"
+                />
   </url><url>
     <loc>https://killmydebt.de/about/</loc>
     <lastmod>2024-05-05T00:00:00+00:00</lastmod>
